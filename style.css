@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fuzzy+Bubbles&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hat_text {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.container {
+    background-color: white;
+    margin: 50px 0 0 150px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 0.9fr 0.8fr 1.6fr;
+    grid-template-rows: 0.8fr 0.8fr 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "g_1 g_2 g_5"
+      "g_1 g_2 g_5"
+      "g_3 g_4 g_5";
+}  
+.g_1 {
+    background-color: rgb(46, 102, 255);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    grid-area: g_1;
+    border: 1px solid black;
+}
+.g_2 {
+    background-color: rgb(46, 102, 255);
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    grid-area: g_2;
+    border: 1px solid black;
+}
+.g_3 {
+    background-color: rgb(46, 102, 255);
+    border-radius: 10px;
+    color: white; 
+    text-align: center;
+    grid-area: g_3;
+    border: 1px solid black;
+}
+.g_4 { 
+    background-color: rgb(46, 102, 255);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    grid-area: g_4;
+    border: 1px solid black;
+}
+.g_5 { 
+    background-color: rgb(46, 102, 255);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    grid-area: g_5;
+    border: 1px solid black;
+}
+.container_2 {
+    background-color: white;
+    margin: 50px 0 0 150px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 0.9fr 0.9fr 1.5fr;
+    grid-template-rows: 0.8fr 0.9fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "l_1 l_2 l_6"
+      "l_3 l_4 l_6"
+      "l_5 l_5 l_6";
+}
+  
+.l_1 {
+    background-color: rgb(56, 204, 75);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+     grid-area: l_1;
+     border: 1px solid black;
+} 
+.l_2 {
+    background-color: rgb(56, 204, 75);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+     grid-area: l_2;
+     border: 1px solid black;
+} 
+.l_3 {
+    background-color: rgb(56, 204, 75);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+     grid-area: l_3;
+     border: 1px solid black;
+}
+.l_4 {
+    background-color: rgb(56, 204, 75);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+     grid-area: l_4;
+     border: 1px solid black;
+}
+.l_5 {
+    background-color: rgb(56, 204, 75);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+     grid-area: l_5;
+     border: 1px solid black;
+}
+.l_6 {
+     grid-area: l_6;
+     border: 1px solid black;
+     border-radius: 10px;
+}
+.container_3 {
+    background-color: white;
+    margin: 50px 0 0 150px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr 1.2fr;
+    grid-template-rows: 1.1fr 1fr 1.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "f_1 f_2 f_3"
+      "f_4 f_5 f_6"
+      "f_7 f_8 f_9";
+}
+  
+.f_1 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_1;
+    border: 1px solid black;
+}
+  
+.f_2 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_2;
+    border: 1px solid black;
+}
+  
+.f_3 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_3;
+    border: 1px solid black;
+}
+  
+.f_4 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_4;
+    border: 1px solid black;
+}
+  
+.f_5 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_5;
+    border: 1px solid black;
+}
+  
+.f_6 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_6;
+    border: 1px solid black;
+}
+  
+.f_7 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_7;
+    border: 1px solid black;
+}
+  
+.f_8 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_8;
+    border: 1px solid black;
+}
+  
+.f_9 {
+    background-color: rgb(177, 204, 56);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    grid-area: f_9;
+    border: 1px solid black;
+}
+.container_4 {
+    background-color: white;
+    margin: -1000px 0 0 650px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr 1.1fr;
+    grid-template-rows: 1.1fr 1fr 1.1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "r_3 r_3 r_4 r_5"
+      "r_3 r_3 r_6 r_7"
+      "r_3 r_3 r_8 r_9"
+      "r_2 r_1 r_1 r_1";
+}
+  
+.r_1 { 
+    grid-area: r_1;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+  
+.r_2 { 
+    grid-area: r_2;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_3 { 
+    grid-area: r_3;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_4 { 
+    grid-area: r_4;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_5 { 
+    grid-area: r_5;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_6 { 
+    grid-area: r_6;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_7 { 
+    grid-area: r_7;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_8 { 
+    grid-area: r_8;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.r_9 { 
+    grid-area: r_9;
+    background-color: rgb(161, 20, 20);
+    border-radius: 10px;
+    color: black;
+    text-align: center; 
+    border: 1px solid black;
+}
+.container_5 {
+    background-color: white;
+    margin: 50px 0 0 650px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr 1.1fr;
+    grid-template-rows: 1.1fr 1fr 1.1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "h_1 h_1 h_2 h_2"
+      "h_1 h_1 h_2 h_2"
+      "h_3 h_3 h_4 h_4"
+      "h_3 h_3 h_4 h_4";
+}
+  
+.h_4 { 
+    grid-area: h_4;
+    background-color: rgb(3, 85, 85);
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.h_1 { 
+    grid-area: h_1;
+    background-color: rgb(3, 85, 85);
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.h_2 { 
+    grid-area: h_2; 
+    background-color: rgb(3, 85, 85);
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.h_3 { 
+    grid-area: h_3; 
+    background-color: rgb(3, 85, 85);
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+.container_6 {
+    background-color: white;
+    margin: 50px 0 0 650px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr 1.1fr 1fr 1fr;
+    grid-template-rows: 1.1fr 1fr 1.1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "o_1 o_1 o_1 o_1 o_1 o_1"
+      "o_2 o_3 o_4 o_5 o_6 o_7"
+      "o_2 o_3 o_4 o_5 o_6 o_7"
+      "o_2 o_3 o_4 o_5 o_6 o_7";
+}
+  
+.o_1 { 
+    grid-area: o_1;
+    background-color: darkkhaki; 
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.o_2 { 
+    grid-area: o_2;
+    background-color: darkkhaki;  
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.o_3 { 
+    grid-area: o_3;  
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    
+}
+  
+.o_4 { 
+    grid-area: o_4; 
+    background-color: darkkhaki; 
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.o_5 { 
+    grid-area: o_5; 
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+}
+  
+.o_6 { 
+    grid-area: o_6; 
+    background-color: darkkhaki; 
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+    border: 1px solid black;
+}
+  
+.o_7 { 
+    grid-area: o_7; 
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+}
+@media screen and (max-width:500px)  {
+    .hat_text {
+        font-size: 15px;
+    }
+    .container {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 0 100px;
+    }
+    .container_2 {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 0 100px;
+    }
+    .container_3 {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 0 100px;
+    }
+    .container_4 {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 0 100px;
+    }
+    .container_5 {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 0 100px;
+    }
+    .container_6 {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 0 100px;
+    }
+}
+  
+  
+  
+  
+  
+  
